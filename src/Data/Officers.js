@@ -17,7 +17,7 @@ const Officers = [
     },
     {
         id: 2,
-        position: "First Vice President",
+        position: "First Vice President & Secretary",
         name: "Sue Smith",
         unit: 110,
         phoneNumber: "801-628-0025",
@@ -25,16 +25,16 @@ const Officers = [
         email: "suesmithpc@yahoo.com",
         photo: SueSmith
     },
-    {
-        id: 3,
-        position: "Second Vice President",
-        name: "Dennis Miller",
-        unit: 524,
-        phoneNumber: "612-801-4297",
-        term: 2024,
-        email: "dmaws@aol.com",
-        photo: DennisMiller
-    },
+    // {
+    //     id: 3,
+    //     position: "Second Vice President",
+    //     name: "Dennis Miller",
+    //     unit: 524,
+    //     phoneNumber: "612-801-4297",
+    //     term: 2024,
+    //     email: "dmaws@aol.com",
+    //     photo: DennisMiller
+    // },
     {
         id: 4,
         position: "Treasurer",
@@ -45,16 +45,16 @@ const Officers = [
         email: "cjorban@yahoo.com",
         photo: CherylJorban
     },
-    {
-        id: 5,
-        position: "Secretary",
-        name: "Diana Cline",
-        unit: 196,
-        phoneNumber: "480-299-6865",
-        term: 2025,
-        email: "diana.and.the.angels@gmail.com",
-        photo: DianaCline
-    }
+    // {
+    //     id: 5,
+    //     position: "Secretary",
+    //     name: "Diana Cline",
+    //     unit: 196,
+    //     phoneNumber: "480-299-6865",
+    //     term: 2025,
+    //     email: "diana.and.the.angels@gmail.com",
+    //     photo: DianaCline
+    // }
 ]
 
 export default Officers; 

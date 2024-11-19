@@ -42,6 +42,11 @@ import january2024Minutes from '../images/LPGRA_Minutes_January_4_2024.pdf';
 import february2024Minutes from '../images/LPGRA_Minutes_February_01_2024.pdf';
 import march2024Minutes from '../images/LPGRA_Minutes_March_07_2024.pdf';
 import april2024Minutes from '../images/LPGRA_Minutes_April_04_2024.pdf';
+import may2024Minutes from '../images/LPGRA_Minutes_May_2_2024.pdf';
+import june2024Minutes from '../images/LPGRA_Minutes_June_6_2024.pdf';
+import july2024Minutes from '../images/LPGRA_Minutes_July_11_2024.pdf';
+import august2024Minutes from '../images/LPGRA_Minutes_August_1_2024.pdf';
+import september2024Minutes from '../images/LPGRA_Minutes_September_5_2024.pdf';
 
 
 const MinutesPDFData = [
@@ -260,6 +265,31 @@ const MinutesPDFData = [
         path: april2024Minutes,
         date: 'April 2024'
     },
+    {
+        id: '05-2024',
+        path: may2024Minutes,
+        date: 'May 2024'
+    },
+    {
+        id: '06-2024',
+        path: june2024Minutes,
+        date: 'June 2024'
+    },
+    {
+        id: '07-2024',
+        path: july2024Minutes,
+        date: 'July 2024'
+    },
+    {
+        id: '08-2024',
+        path: august2024Minutes,
+        date: 'August 2024'
+    },
+    {
+        id: '09-2024',
+        path: september2024Minutes,
+        date: 'September 2024'
+    }
 ]
 
 export default MinutesPDFData;
