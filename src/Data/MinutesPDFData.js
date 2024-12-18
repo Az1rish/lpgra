@@ -47,6 +47,8 @@ import june2024Minutes from '../images/LPGRA_Minutes_June_6_2024.pdf';
 import july2024Minutes from '../images/LPGRA_Minutes_July_11_2024.pdf';
 import august2024Minutes from '../images/LPGRA_Minutes_August_1_2024.pdf';
 import september2024Minutes from '../images/LPGRA_Minutes_September_5_2024.pdf';
+import october2024Minutes from '../images/LPGRA_Minutes_October_3_2024.pdf';
+import november2024Minutes from '../images/LPGRA_Minutes_November_7_2024.pdf';
 
 
 const MinutesPDFData = [
@@ -289,7 +291,17 @@ const MinutesPDFData = [
         id: '09-2024',
         path: september2024Minutes,
         date: 'September 2024'
-    }
+    },
+    {
+        id: '10-2024',
+        path: october2024Minutes,
+        date: 'October 2024'
+    },
+    {
+        id: '11-2024',
+        path: november2024Minutes,
+        date: 'November 2024'
+    },
 ]
 
 export default MinutesPDFData;
