@@ -9,10 +9,10 @@ const Officers = [
         id: 1,
         position: "President",
         name: "Donna Provost",
-        unit: null,
-        phoneNumber: null,
+        unit: 186,
+        phoneNumber: "802-236-0381",
         term: 2026,
-        email: null,
+        email: "donnaprovost2@gmail.com",
         photo: DonnaProvost
     },
     {
@@ -39,10 +39,10 @@ const Officers = [
         id: 4,
         position: "Treasurer",
         name: "Tim Byrnes",
-        unit: null,
-        phoneNumber: null,
+        unit: 142,
+        phoneNumber: "515-494-4600",
         term: 2026,
-        email: null,
+        email: "tjbiaaz@gmail.com",
         photo: TimByrnes
     },
     {

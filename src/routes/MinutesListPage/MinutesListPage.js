@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-expressions */
 import React, { Component } from 'react';
 import MinutesData from '../../Data/MinutesData';
-import schedule from '../../images/2024_Meetings.pdf';
+import schedule from '../../images/2025_Meetings.pdf';
 import { Minutes } from '../../Components';
 import { StyledMinutesList } from './MinutesListPage.style';
 import MinutesPDFData from '../../Data/MinutesPDFData';
@@ -37,7 +37,7 @@ export default class MinutesListPage extends Component {
                     target='_blank' 
                     rel='noopener noreferrer'
                 >
-                    Click here for 2024 Meeting Schedule
+                    Click here for 2025 Meeting Schedule
                 </a>
                 <h2>Meetings Minutes List</h2>
                 {this.renderPDFMinutes()}
