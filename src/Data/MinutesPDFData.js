@@ -49,6 +49,7 @@ import august2024Minutes from '../images/LPGRA_Minutes_August_1_2024.pdf';
 import september2024Minutes from '../images/LPGRA_Minutes_September_5_2024.pdf';
 import october2024Minutes from '../images/LPGRA_Minutes_October_3_2024.pdf';
 import november2024Minutes from '../images/LPGRA_Minutes_November_7_2024.pdf';
+import december2024Minutes from '../images/LPGRA_Minutes_December_5_2024.pdf';
 
 
 const MinutesPDFData = [
@@ -301,6 +302,11 @@ const MinutesPDFData = [
         id: '11-2024',
         path: november2024Minutes,
         date: 'November 2024'
+    },
+    {
+        id: '12-2024',
+        path: december2024Minutes,
+        date: 'December 2024'
     },
 ]
 
