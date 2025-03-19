@@ -10,8 +10,6 @@ export default class Officer extends Component {
             position,
             term,
             unit,
-            phoneNumber,
-            email
         } = officer;
         
         return (
@@ -19,8 +17,6 @@ export default class Officer extends Component {
                 <h2>{position}</h2>
                 <h3>{name}</h3>
                 <p>Unit #{unit}</p>
-                <p>Phone: {phoneNumber}</p>
-                <p>Email: {email}</p>
                 <p>Current term ends November {term}</p>
             </StyledOfficer>
         )

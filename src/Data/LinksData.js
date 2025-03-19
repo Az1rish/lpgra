@@ -9,8 +9,8 @@ import accomplishments2022 from '../images/2022_Accomplishments.jpg';
 import accomplishments2023 from '../images/LPGRA_BOARD_ACCOMPLISHMENTS _2022-2023.pdf';
 import accomplishments2024 from '../images/LPGRA_BOARD_ACCOMPLISHMENTS_2023-2024.pdf';
 import newcomers from '../images/Newcomers_Info_Letter.pdf';
-import servicesPg1 from '../images/Resident_services_page_1.pdf';
-import servicesPg2 from '../images/Resident_services_page_2.pdf';
+import servicesPg1 from '../images/Resident_services_page_1_2025.pdf';
+import servicesPg2 from '../images/Resident_services_page_2_2025.pdf';
 
 const LinksData = [
     {

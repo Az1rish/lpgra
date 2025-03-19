@@ -1,7 +1,7 @@
 import React from 'react';
 import { bool } from 'prop-types';
 import { StyledMenu } from './Menu.style';
-import bylaws from '../../images/LPGRA_BYLAWS_2024.pdf';
+import bylaws from '../../images/LPGRA_BYLAWS_2025.pdf';
 
 const Menu = ({ open }) => {
     return (
