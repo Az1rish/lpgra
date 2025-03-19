@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { StyledElections } from './ElectionsPage.style';
 import questionnaire from '../../images/Candidate_Questionnaire.pdf';
-// import absentee2023 from '../../images/Absentee_Ballot_November_2023.pdf';
-// import gerle from '../../images/L_Gerle_Questionnaire_2022.pdf';
-// import marcone from '../../images/P_Marcone_Questionnaire_2022.pdf';
-// import smith from '../../images/S_Smith_Questionnaire_2022.pdf';
 
 export default class ElectionsPage extends Component {
     render() {
