@@ -18,6 +18,7 @@ export default class BoardPage extends Component {
     render() {
         return (
             <StyledBoard>
+                <h2>Contact information for board members can be found in the LPG Directory</h2>
                 {this.renderOfficers()}
             </StyledBoard>
         )
