@@ -52,6 +52,7 @@ import november2024Minutes from '../images/LPGRA_Minutes_November_7_2024.pdf';
 import december2024Minutes from '../images/LPGRA_Minutes_December_5_2024.pdf';
 import january2025Minutes from '../images/LPGRA_Minutes_January_2_2025.pdf';
 import february2025Minutes from '../images/LPGRA_Minutes_February_6_2025.pdf';
+import march2025Minutes from '../images/LPGRA_Minutes_March_06_2025.pdf';
 
 
 const MinutesPDFData = [
@@ -319,6 +320,11 @@ const MinutesPDFData = [
         id: '02-2025',
         path: february2025Minutes,
         date: 'February 2025'
+    },
+    {
+        id: '03-2025',
+        path: march2025Minutes,
+        date: 'March 2025'
     },
 ]
 
