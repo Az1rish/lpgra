@@ -41,7 +41,7 @@ const Officers = [
         position: "Secretary",
         name: "Peggy Marcone",
         unit: 418,
-        term: 2025,
+        term: 2026,
         photo: PeggyMarcone
     }
 ]
