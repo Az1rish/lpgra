@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
 import { theme } from './theme';
 import { Nav } from './Components';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { 
   LandingPage, 
   LinksPage, 
@@ -26,50 +26,48 @@ function App() {
             <Nav />
           </div>
           <main className="App__main">
-            <Switch>
+            <Routes>
               <Route
-                exact
                 path="/"
-                component={LandingPage}
+                element={<LandingPage />}
               />
               <Route
-                exact
                 path="/minutes"
-                component={MinutesListPage}
+                element={<MinutesListPage />}
               />
               <Route
                 path="/minutes/:minutesId"
-                component={MeetingPage}
+                element={<MeetingPage />}
               />
               <Route
                 path="/links"
-                component={LinksPage}
+                element={<LinksPage />}
               />
               <Route
                 path="/bylaws"
-                component={BylawsPage}
+                element={<BylawsPage />}
               />
               <Route
                 path="/board"
-                component={BoardPage}
+                element={<BoardPage />}
               />
               <Route
                 path="/contact"
-                component={ContactPage}
+                element={<ContactPage />}
               />
               <Route
                 path="/newsletters"
-                component={NewslettersListPage}
+                element={<NewslettersListPage />}
               />
               <Route
                 path="/elections"
-                component={ElectionsPage}
+                element={<ElectionsPage />}
               />
               <Route
                 path="/requestForm"
-                component={RequestFormPage}
+                element={<RequestFormPage />}
               />
-            </Switch>
+            </Routes>
           </main>
         </div>
       </>
