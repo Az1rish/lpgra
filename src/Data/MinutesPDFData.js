@@ -59,6 +59,7 @@ import june2025Minutes from '../images/LPGRA_Minutes_June_5_2025.pdf';
 import july2025Minutes from '../images/LPGRA_Minutes_July_3_2025.pdf';
 import august2025Minutes from '../images/LPGRA_Minutes_August_7_2025.pdf';
 import september2025Minutes from '../images/LPGRA_Minutes_September_4_2025.pdf';
+import october2025Minutes from '../images/LPGRA_Minutes_October_2_2025.pdf';
 
 const MinutesPDFData = [
     {
@@ -360,6 +361,11 @@ const MinutesPDFData = [
         id: '09-2025',
         path: september2025Minutes,
         date: 'September 2025'
+    },
+    {
+        id: '10-2025',
+        path: october2025Minutes,
+        date: 'October 2025'
     },
 ]
 

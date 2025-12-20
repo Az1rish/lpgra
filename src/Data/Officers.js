@@ -1,7 +1,8 @@
 import PeggyMarcone from '../images/peggy_marcone.jpg';
-import SueSmith from '../images/Sue_Smith2.jpg';
-import CherylJorban from '../images/Cheryl_Jorban.jpg';
+import LuannCameron from '../images/Luann_Cameron.jpg';
+import CherylJorban from '../images/Cheryl_Jorban_New.jpg';
 import DonnaProvost from '../images/Donna_Provost.png';
+import TedJohnston from '../images/Ted_Johnston.jpg';
 
 const Officers = [
     {
@@ -15,34 +16,34 @@ const Officers = [
     {
         id: 2,
         position: "First Vice President",
-        name: "Sue Smith",
-        unit: 110,
-        term: 2025,
-        photo: SueSmith
-    },
-    {
-        id: 3,
-        position: "Second Vice President",
-        name: "Cheryl Jorban",
-        unit: 83,
-        term: 2025,
-        photo: CherylJorban
-    },
-    // {
-    //     id: 4,
-    //     position: "Treasurer",
-    //     name: "Tim Byrnes",
-    //     unit: 142,
-    //     term: 2026,
-    //     photo: TimByrnes
-    // },
-    {
-        id: 5,
-        position: "Secretary",
         name: "Peggy Marcone",
         unit: 418,
         term: 2026,
         photo: PeggyMarcone
+    },
+    {
+        id: 3,
+        position: "Second Vice President",
+        name: "Ted Johnston",
+        unit: 496,
+        term: 2027,
+        photo: TedJohnston
+    },
+    {
+        id: 4,
+        position: "Treasurer",
+        name: "Cheryl Jorban",
+        unit: 83,
+        term: 2027,
+        photo: CherylJorban
+    },
+    {
+        id: 5,
+        position: "Secretary",
+        name: "Luann Cameron",
+        unit: 41,
+        term: 2027,
+        photo: LuannCameron
     }
 ]
 
