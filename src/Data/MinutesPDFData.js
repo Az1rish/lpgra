@@ -61,6 +61,10 @@ import august2025Minutes from '../images/LPGRA_Minutes_August_7_2025.pdf';
 import september2025Minutes from '../images/LPGRA_Minutes_September_4_2025.pdf';
 import october2025Minutes from '../images/LPGRA_Minutes_October_2_2025.pdf';
 import november2025Minutes from '../images/LPGRA_Minutes_November_6_2025.pdf';
+import december2025Minutes from '../images/LPGRA_Minutes_December_4_2025.pdf';
+import january2026Minutes from '../images/LPGRA_Minutes_January_8_2026.pdf';
+import february2026Minutes from '../images/LPGRA_Minutes_February_5_2026.pdf';
+import march2026Minutes from '../images/LPGRA_Minutes_March_5_2026.pdf';
 
 const MinutesPDFData = [
     {
@@ -372,6 +376,26 @@ const MinutesPDFData = [
         id: '11-2025',
         path: november2025Minutes,
         date: 'November 2025'
+    },
+    {
+        id: '12-2025',
+        path: december2025Minutes,
+        date: 'December 2025'
+    },
+    {
+        id: '01-2026',
+        path: january2026Minutes,
+        date: 'January 2026'
+    },
+    {
+        id: '02-2026',
+        path: february2026Minutes,
+        date: 'February 2026'
+    },
+    {
+        id: '03-2026',
+        path: march2026Minutes,
+        date: 'March 2026'
     },
 ]
 
