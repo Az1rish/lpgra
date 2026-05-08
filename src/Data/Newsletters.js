@@ -19,6 +19,7 @@ import firstQuarter2025 from '../images/Newsletter_February_2025.pdf';
 import secondQuarter2025 from '../images/Newsletter_May_2025.pdf';
 import thirdQuarter2025 from '../images/Newsletter_August_2025.pdf';
 import fourthQuarter2025 from '../images/Newsletter_November_2025.pdf';
+import firstQuarter2026 from '../images/Newsletter_February_2026.pdf';
 
 const Newsletters = [
     {
@@ -125,6 +126,11 @@ const Newsletters = [
         id: 'fourthQuarter2025',
         path: fourthQuarter2025,
         name: '4th Quarter 2025 Newsletter'
+    },
+    {
+        id: 'firstQuarter2026',
+        path: firstQuarter2026,
+        name: '1st Quarter 2026 Newsletter'
     },
 ];
 
