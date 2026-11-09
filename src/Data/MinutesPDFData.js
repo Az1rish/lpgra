@@ -68,6 +68,10 @@ import march2026Minutes from '../images/LPGRA_Minutes_March_5_2026.pdf';
 import april2026Minutes from '../images/LPGRA_Minutes_April_2_2026.pdf';
 import may2026Minutes from '../images/LPGRA_Minutes_May_7_2026.pdf';
 import june2026Minutes from '../images/LPGRA_Minutes_June_4_2026.pdf';
+import july2026Minutes from '../images/LPGRA_Minutes_July_2_2026.pdf';
+import august2026Minutes from '../images/LPGRA_Minutes_August_6_2026.pdf';
+import september2026Minutes from '../images/LPGRA_Minutes_September_3_2026.pdf';
+import october2026Minutes from '../images/LPGRA_Minutes_October_1_2026.pdf';
 
 const MinutesPDFData = [
     {
@@ -414,6 +418,26 @@ const MinutesPDFData = [
         id: '06-2026',
         path: june2026Minutes,
         date: 'June 2026'
+    },
+    {
+        id: '07-2026',
+        path: july2026Minutes,
+        date: 'July 2026'
+    },
+    {
+        id: '08-2026',
+        path: august2026Minutes,
+        date: 'August 2026'
+    },
+    {
+        id: '09-2026',
+        path: september2026Minutes,
+        date: 'September 2026'
+    },
+    {
+        id: '10-2026',
+        path: october2026Minutes,
+        date: 'October 2026'
     },
 ]
 
